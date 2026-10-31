@@ -79,45 +79,6 @@ Bridges lab claims and actual usage:
 
 ---
 
-## 📂 Project Structure
-
----
-new-demo-main/
-│
-├── backend/
-│ ├── main.py
-│ ├── routes/
-│ │ └── analyze.py
-│ ├── models/
-│ │ └── schemas.py
-│ ├── services/
-│ │ ├── ai_service.py
-│ │ ├── llm_provider.py
-│ │ ├── parser.py
-│ │ ├── spec_c_engine.py
-│ │ └── reddit_ingestion.py
-│ └── requirements.txt
-│
-├── extension/
-│ ├── manifest.json
-│ ├── content.js
-│ ├── background.js
-│ ├── styles.css
-│ └── icons/
-│
-├── frontend/
-│ ├── src/
-│ ├── public/
-│ ├── index.html
-│ ├── package.json
-│ └── vite.config.js
-│
-├── .env
-└── .gitignore
-
-
-
----
 
 ## ⚙️ How It Works
 
